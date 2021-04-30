@@ -10,6 +10,14 @@
 {% block content %}
     {% csrf_token %}
     <title> EXAMPLE </title>
+    <style>
+        .myDivTwo
+		{
+			background-color: lightblue;
+			text-align: left;
+			border: 4px outset red;
+		}
+    </style>
     <div class="landing-container unselectable">
         <p class="tagline">
             <span class="tagline-component tagline-component-main">
@@ -22,12 +30,11 @@
             </span>
         </p>
         
-        <div>
+        <div class="myDivTwo">
             <br><br>
-
             <body>
                 <form name = "posting_status" method = "post">
-                    Email:          <input type = "text" name = "email" id = "email" size = "40">
+                    Email: <input type = "text" name = "email" id = "email" size = "40">
                     <br><br>
                     Re-Enter Email: <input type = "text" name = "emailV1" size = "40" pattern = "[0-9a-zA-z,.?!\s]+[.?!,a-zA-Z0-9\s]*">
                     <hr><br>
