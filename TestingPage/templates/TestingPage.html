@@ -17,7 +17,7 @@
             </span>
             
             <span class="tagline-component tagline-component-sub">
-                TESTING PAGE Testing
+                TESTING PAGE Testing V1
             </span>
         </p>
         
@@ -39,6 +39,13 @@
             <a class="try-demo" onclick="tryDemo();">
                 ...or try out a demo
             </a>
+
+            <body>
+                <form name = "posting_status" method = "post">
+                    Status code (required): <input type = "text" name = "statuscode" id = "statuscode">
+                    Status (required):<input type = "text" name = "status" size = "40" pattern = "[0-9a-zA-z,.?!\s]+[.?!,a-zA-Z0-9\s]*">
+                </form>
+            </body>
         </div>
     </div>
 {% endblock %}
