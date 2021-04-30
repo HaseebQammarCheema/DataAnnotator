@@ -13,37 +13,22 @@
     <div class="landing-container unselectable">
         <p class="tagline">
             <span class="tagline-component tagline-component-main">
-                DataAnnotator
+                SignUp Page
             </span>
             
             <span class="tagline-component tagline-component-sub">
-                TESTING PAGE Testing V1
+                Please enter your credentials below
             </span>
         </p>
         
         <div>
-            <a href="{% url 'doc' %}">
-                <button class="option-button gray-button">Docs</button>
-            </a>
-
-            <a href="{% url 'setup' %}">
-                <button class="option-button">Annotate</button>
-            </a>
-           
-            <a href="{% url 'login' %}">
-                <button class="option-button">Login</button>
-            </a>
-
             <br><br>
-
-            <a class="try-demo" onclick="tryDemo();">
-                ...or try out a demo
-            </a>
 
             <body>
                 <form name = "posting_status" method = "post">
-                    Status code (required): <input type = "text" name = "statuscode" id = "statuscode">
-                    Status (required):<input type = "text" name = "status" size = "40" pattern = "[0-9a-zA-z,.?!\s]+[.?!,a-zA-Z0-9\s]*">
+                    Email: <input type = "text" name = "email" id = "email" size = "40">
+                    <br><br>
+                    Re-Enter Email:<input type = "text" name = "emailV1" size = "40" pattern = "[0-9a-zA-z,.?!\s]+[.?!,a-zA-Z0-9\s]*">
                 </form>
             </body>
         </div>
