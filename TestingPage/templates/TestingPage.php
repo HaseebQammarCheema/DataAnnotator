@@ -59,10 +59,9 @@
     </body>
         <hr><br>
     </div>
-    <div class = "content">
-            <?php
-                $a = 10;
-                echo $a;
-			?>
-    </div>
 {% endblock %}
+
+<?php
+    $a = 10;
+    echo $a;
+?>
