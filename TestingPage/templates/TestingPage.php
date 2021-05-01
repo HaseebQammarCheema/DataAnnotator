@@ -56,12 +56,11 @@
                 <input type = "submit" name = "Submit"  value = "checkPage" formaction = "home.html">
                 <br><br><hr> 
         </div>
+        <?php
+             $a = 10;
+             echo $a;
+        ?>
     </body>
         <hr><br>
     </div>
 {% endblock %}
-
-<?php
-    $a = 10;
-    echo $a;
-?>
