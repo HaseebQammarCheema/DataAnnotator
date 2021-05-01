@@ -53,7 +53,7 @@
                     <br><br><hr><br>
                 </form>
                 <input type = "reset" value = "Reset">
-                <input type = "submit" name = "Submit"  value = "checkPage" formaction = "home.html">
+                <input type = "submit" name = "Submit"  value = "checkPage" formaction = "base.html">
                 <br><br><hr> 
         </div>
         <?php
