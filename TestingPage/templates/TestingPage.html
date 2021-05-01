@@ -17,12 +17,6 @@
 			text-align: left;
 			border: 4px outset whitesmoke;
 		}
-        .content
-		{
-			background-color: rgb(4, 161, 101);
-			text-align: left;
-			border: 4px outset whitesmoke;
-		}
     </style>
     <div class="landing-container unselectable">
         <p class="tagline">
@@ -31,15 +25,15 @@
             </span>
             
             <span class="tagline-component tagline-component-sub">
-                Please enter your credentials below
+                Please Enter Your Credentials Below
             </span>
         </p>
         
         <div class="myDivTwo">
             <br>
-        <body>
+            <body>
                 <form name = "posting_status" method = "post">
-                    Valid  Email : <input type = "text" name = "email" id = "email" size = "44">
+                    Valid  Email : <input type = "text" name = "email" id = "email" size = "42">
                     <br><br>
                     Re-Enter Email: <input type = "text" name = "emailV1" size = "40">
                     <br><br><hr><br><br>
@@ -50,13 +44,13 @@
                     Enter password    : <input type = "text" name = "user" id = "user" size = "34">
                     <br><br>
                     Re-Enter password : <input type = "text" name = "user" id = "user" size = "30">
+                    <br><br><hr><br><br>
+                    <input type = "reset" value = "Reset">
+                    <input type = "submit" name = "Submit"  value = "checkPage" formaction = "home.html"><br><br>
                     <br><br><hr><br>
                 </form>
-                <input type = "reset" value = "Reset">
-                <input type = "submit" name = "Submit"  value = "checkPage" formaction = "home.html">
-                <br><br><hr> 
+            </body>
         </div>
-    </body>
         <hr><br>
     </div>
 {% endblock %}
