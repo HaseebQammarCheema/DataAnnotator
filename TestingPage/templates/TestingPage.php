@@ -58,29 +58,7 @@
         </div>
         <div class = "content">
             <?php
-                $sql_host="cmslamp14.aut.ac.nz";
-                $sql_user="szs7792";
-                $sql_pass="66Everyone6";
-                $sql_db="szs7792";
-                
-                $conn = @mysqli_connect($sql_host,$sql_user,$sql_pass) or die("<p>Unable to connect to the database server.</p>" . "<p>Error code " . mysqli_connect_errno() . ": " . mysqli_connect_error()) . "</p>";
-                echo "<p><font color = green>Successfully connected to the database server.</font></p>";
-                
-                @mysqli_select_db($conn, "szs7792") or die("<p>Unable to select the database.</p>" . "<p>Error code " . mysqli_errno($conn) . ": " . mysqli_error($conn) . "</p>");
-                echo "<p><font color = green>Successfully opened the database.</font></p><br><hr><br>";
-
-                $result_obtained = mysqli_query($conn, "SELECT * FROM status_processing_final_lastCISE");
-			
-                //This condirion to check whether the variable contains something or not. If nothing is contained within it, a new table is created with relevant types and variables.
-                if(empty($result_obtained))
-                {
-                    $sqlString = "CREATE TABLE status_processing_final_lastCISE (statuscode VARCHAR(25) NOT NULL, status VARCHAR(255) NOT NULL, 
-                    share VARCHAR(25) NOT NULL, date VARCHAR(25) NOT NULL, permission VARCHAR(255))";
-                    
-                    //Checking if the query has run successfully. If there is an error, relevant information will be provided to the user. 
-                    $resultQuery = @mysqli_query($conn,$sqlString) or die ("<p> Unable to execute the query. </p>" . "<p> Error Code ". mysqli_errno($conn) . ": " . mysqli_error($conn)) . "</p>";
-                    echo "<p> Successfully created the table. </p>";
-                }
+                echo "HELLO";
 			?>
         </div>
     </body>
