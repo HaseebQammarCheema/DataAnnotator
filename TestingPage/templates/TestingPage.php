@@ -56,13 +56,13 @@
                 <input type = "submit" name = "Submit"  value = "checkPage" formaction = "home.html">
                 <br><br><hr> 
         </div>
-        <div class = "content">
+    </body>
+        <hr><br>
+    </div>
+    <div class = "content">
             <?php
                 $a = 10;
                 echo $a;
 			?>
-        </div>
-    </body>
-        <hr><br>
     </div>
 {% endblock %}
