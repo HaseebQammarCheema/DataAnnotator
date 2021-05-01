@@ -58,7 +58,7 @@
         </div>
         <div class = "content">
             <?php
-                echo "HELLO";
+                echo "<p> Successfully created the table. </p>";
 			?>
         </div>
     </body>
