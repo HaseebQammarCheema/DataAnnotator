@@ -9,6 +9,15 @@
 
 {% block content %}
     {% csrf_token %}
+    <title> EXAMPLE </title>
+    <style>
+        .myDivThree
+		{
+			background-color: rgb(37, 0, 0);
+			text-align: center;
+			border: 4px outset whitesmoke;
+		}
+    </style>
     <div class="landing-container unselectable">
         <p class="tagline">
             <span class="tagline-component tagline-component-main">
@@ -20,7 +29,7 @@
             </span>
         </p>
         
-        <div>
+        <div class="myDivThree">
             Hello
         </div>
     </div>
