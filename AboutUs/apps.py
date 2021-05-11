@@ -1,4 +1,4 @@
 from django.apps import AppConfig
 
-class HomeConfig(AppConfig):
+class AboutUs(AppConfig):
     name = 'AboutUs'

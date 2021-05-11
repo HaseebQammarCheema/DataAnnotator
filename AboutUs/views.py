@@ -1,4 +1,4 @@
 from django.shortcuts import render
 
-def home(request):
+def AboutUs(request):
     return render(request, 'AboutUs.html', {})
