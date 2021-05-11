@@ -17,9 +17,9 @@
 }
 
 html {
-    --background-primary: #F1F1F1;
-    --background-secondary: #E7E7E7;
-    --background-secondary-alt: #d8d8d8;
+    --background-primary: #330000;
+    --background-secondary: #440000;
+    --background-secondary-alt: #440000;
     --background-inverse: #1A1E24;
     --color-primary: #1A1E24;
 }
