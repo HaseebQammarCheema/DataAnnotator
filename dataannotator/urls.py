@@ -11,6 +11,7 @@ urlpatterns = [
     path('annotate/', include('annotate.urls')),
     path('login/', include('login.urls')),
     path('TestingPage/', include('TestingPage.urls')),
+    path('AboutUs/', include('AboutUs.urls')),
     path('admin/', admin.site.urls),
     re_path(r'^static/(?P<path>.*)$', serve, {
         'document_root': settings.STATIC_ROOT
