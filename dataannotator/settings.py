@@ -48,6 +48,7 @@ INSTALLED_APPS = [
     "setup",
     "login",
     "TestingPage",
+    "AboutUs",
 ]
 
 MIDDLEWARE = [
