@@ -17,19 +17,19 @@
 }
 
 html {
-    --background-primary: #330000;
-    --background-secondary: #440000;
-    --background-secondary-alt: #440000;
+    --background-primary: #085caa;
+    --background-secondary: #085caa;
+    --background-secondary-alt: #085caa;
     --background-inverse: #1A1E24;
     --color-primary: #1A1E24;
 }
 
 html[data-theme='dark'] {
-    --background-primary: #440000;
-    --background-secondary: rgb(51, 0, 0);
-    --background-secondary-alt: rgb(48, 0, 0);
+    --background-primary: #085caa;
+    --background-secondary: #085caa;
+    --background-secondary-alt: #085caa;
     --background-inverse: #f5f5f5;
-    --color-primary: rgb(46, 0, 0);
+    --color-primary: #085caa;
 }
 
 html {
